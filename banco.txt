@@ -1,4 +1,6 @@
-user:sennÂnnha
-nnÂnn:n:123
-123:123:nnÂnnovo:333
-joaoÂ123Â123
+user:senha
+joao:123
+parca:codigos
+usuario:senha
+123:456
+joao2:1234

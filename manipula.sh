@@ -102,7 +102,10 @@ fi
 echo "Informe sua senha"
 read -s senha
 
-insere_registro "$user:$senha"
+usern=$(echo "$user" | mascara)
+senhan=$(echo "$senha" | mascara)
+
+insere_registro "$usern:$senhan"
  
 
 ;;
@@ -120,7 +123,6 @@ echo "Qual usuário deseja deletar?"
 read login
 
 if tem_chave "$login"; then
-
 apaga_registro "$login"
 else
 echo "Usuario inexistente!"
